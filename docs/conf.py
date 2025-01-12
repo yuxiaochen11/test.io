@@ -13,7 +13,6 @@ release = '0.0.1'
 import os
 import sys
 sys.path.append(os.path.relpath('./source'))
-
 sys.path.append(os.path.relpath('.'))
 
 extensions = [
@@ -36,7 +35,7 @@ source_suffix={
     '.md': 'markdown',
 }
 
-
+html_baseurl = 'https://yuxiaochen11.github.io/test.io/' 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
@@ -46,9 +45,7 @@ if not os.path.exists('_static'):
 
 html_theme = "furo"  
 html_static_path = ["_static"]
-html_css_files = [
-    "css/override.css", 
-]
+#html_css_files = ["css/override.css"]
 
 html_logo = "_static/logo.png"
 
