@@ -66,6 +66,6 @@ html_theme_options = {
 html_theme = 'furo'
 html_static_path = ['_static']
 
-
+source_encoding = 'utf-8'
 
 

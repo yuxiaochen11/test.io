@@ -110,7 +110,7 @@ ABalp_grn=np.array(ABal_grn_dict['ABalp'])
 4. **Matching**: 
    - Perform one-to-one matching using the Hungarian algorithm.
 
-![](../_static/validation.png)
+![](_static/validation.png)
 
 
 ### Input Measured Expression
